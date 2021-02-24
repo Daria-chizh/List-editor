@@ -132,7 +132,7 @@ describe('Prodcut list', () => {
     await page.$eval('#numberName', (el) => { el.value = '0'; }); // eslint-disable-line no-param-reassign
     await page.click('#itemForm');
 
-    const isCostValid = await page.$eval('#numberName', (el) => el.validity.valid);
+    const isCostValid = await page.$eval('#numberName', (el) => el.validity.valid); // eslint-disable-line no-param-reassign
     expect(isCostValid).toBeFalsy();
   });
 
