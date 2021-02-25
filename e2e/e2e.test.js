@@ -12,8 +12,8 @@ describe('Prodcut list', () => {
   beforeAll(async () => {
     server = await runServer();
     browser = await puppetteer.launch({
-      headless: false, // show gui
-      slowMo: 250,
+      // headless: false, // show gui
+      // slowMo: 250,
     });
     page = await browser.newPage();
   });
