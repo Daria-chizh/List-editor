@@ -1,0 +1,98 @@
+span {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.modal__content {
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+input {
+  width: 350px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.modal-window {
+  background-color: white;
+  border: 1px solid black;
+  width:450px;
+  height: 250px;
+  position: relative;
+  bottom: 170px;
+  left: 15px;
+}
+
+.disabled {
+  display: none;
+}
+
+.button-window {
+  padding-left: 100px;
+}
+
+#save,
+#cancel {
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.table {
+  width: 450px;
+  height: 150px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.renderCell {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.carts{
+  margin-left: 2px;
+  padding-top: 100px
+}
+
+.add-cart {
+  margin-left: 370px;
+}
+
+#confirmDelete {
+  color: red;
+  font-size: 20px;
+  border: 2px solid red;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  top: -10px;
+  left: 100px;
+}
+
+.buttons {
+  position: fixed;
+  display: block;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+#agreeDelete,
+#cancelDelete {
+  width: 70px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+
+#error,
+#errorNumber {
+  color: red;
+}
